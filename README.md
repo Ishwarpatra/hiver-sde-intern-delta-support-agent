@@ -11,7 +11,7 @@ The agent is intentionally inspectable: a TF–IDF + logistic-regression classif
 Requires Python 3.10+. From the repository root:
 
 ```bash
-pip install -e .
+pip install -e '.[dev]'
 mkdir -p data
 curl -L https://www.kaggle.com/api/v1/datasets/download/thoughtvector/customer-support-on-twitter -o data/twcs.zip
 python evaluate.py --data data/twcs.zip
