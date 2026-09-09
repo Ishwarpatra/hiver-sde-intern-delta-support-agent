@@ -12,6 +12,7 @@ Requires Python 3.10+. From the repository root:
 
 ```bash
 pip install -e .
+mkdir -p data
 curl -L https://www.kaggle.com/api/v1/datasets/download/thoughtvector/customer-support-on-twitter -o data/twcs.zip
 python evaluate.py --data data/twcs.zip
 ```
