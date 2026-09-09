@@ -1,0 +1,68 @@
+{
+  "brand": "Delta",
+  "n_gold": 200,
+  "model_accuracy": 0.935,
+  "model_macro_f1": 0.9020018985351933,
+  "majority_accuracy": 0.575,
+  "keyword_accuracy": 1.0,
+  "escalation_rate": 0.67,
+  "intents": {
+    "baggage": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 11.0
+    },
+    "booking": {
+      "precision": 0.8,
+      "recall": 0.9411764705882353,
+      "f1-score": 0.8648648648648649,
+      "support": 17.0
+    },
+    "cancellation_refund": {
+      "precision": 1.0,
+      "recall": 0.7692307692307693,
+      "f1-score": 0.8695652173913043,
+      "support": 13.0
+    },
+    "delay_disruption": {
+      "precision": 0.9090909090909091,
+      "recall": 0.9523809523809523,
+      "f1-score": 0.9302325581395349,
+      "support": 21.0
+    },
+    "flight_change": {
+      "precision": 1.0,
+      "recall": 0.9411764705882353,
+      "f1-score": 0.9696969696969697,
+      "support": 17.0
+    },
+    "generic": {
+      "precision": 0.9482758620689655,
+      "recall": 0.9565217391304348,
+      "f1-score": 0.9523809523809523,
+      "support": 115.0
+    },
+    "loyalty": {
+      "precision": 0.8,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.7272727272727273,
+      "support": 6.0
+    },
+    "accuracy": 0.935,
+    "macro avg": {
+      "precision": 0.9224809673085534,
+      "recall": 0.8895932955121849,
+      "f1-score": 0.9020018985351933,
+      "support": 200.0
+    },
+    "weighted avg": {
+      "precision": 0.9377131661442007,
+      "recall": 0.935,
+      "f1-score": 0.9345711431100713,
+      "support": 200.0
+    }
+  },
+  "judge_proxy_accuracy": 0.3,
+  "judge_proxy_kappa": -0.23529411764705888
+}
