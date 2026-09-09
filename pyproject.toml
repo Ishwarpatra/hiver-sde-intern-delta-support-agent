@@ -6,6 +6,3 @@ requires-python = ">=3.10"
 
 [tool.setuptools]
 packages = ["delta_agent"]
-
-[project.scripts]
-delta-agent = "delta_agent.cli:main"

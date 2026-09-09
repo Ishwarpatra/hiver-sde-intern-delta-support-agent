@@ -1,14 +1,10 @@
 """Explainable Delta support agent: intent model, historical reply retrieval, escalation."""
 from dataclasses import dataclass
 import re
-from pathlib import Path
-import joblib
-import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics.pairwise import cosine_similarity
 
-INTENTS = ["baggage", "booking", "cancellation_refund", "delay_disruption", "flight_change", "loyalty", "generic"]
 KEYWORDS = {
  "baggage": r"bag|baggage|luggage|suitcase|lost|checked",
  "booking": r"book|reservation|ticket|confirmation|purchase|fare",
